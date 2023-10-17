@@ -1,0 +1,106 @@
+ul li {
+     
+     display:inline-block;
+     font-size: 30px;
+     padding-left: 1%;
+
+
+}
+
+
+ul li a{
+     text-decoration:none;
+     color:blue;
+     background-color: rgb(241, 245, 241);
+     border-radius: 5px;
+}
+ul li a:hover{
+      color:white;
+      background-color: red;
+}
+ul{
+    color:white;
+    overflow: hidden;
+  
+    
+}
+ul h1{
+     font-size: 50px;
+     font-weight: 100;
+}
+#homepage{
+     background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/202205/iim_v-x800.jpg?wVdCvLsG4Sl1oJvrcCRUjmFAa.1PBh9Z?size=750:*");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+}
+#adminlog{
+     width:60%;
+      height:30%;
+     background-color:wheat;
+     margin-left:20%;
+     margin-top:13%;
+     border: 1px solid #000;
+     text-align: center;
+     font-size: 25px;
+
+}
+ label{
+  padding-left: 8%;
+   
+}
+
+#longinpage{
+      background-image: url("https://th.bing.com/th?id=OIP.5lsdDnCk_e7T_QjuTRpZmgHaE9&w=305&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.7&pid=3.1&rm=2");
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+#facility{
+      font-size: 19px;
+    
+
+}
+#facility li{
+     font-size: 25px;
+     padding-top: 20px;
+}
+#feed{
+     width:40%;
+     height:30%;
+     background-color:wheat;
+     margin-left:30%;
+     margin-top:13%;
+     border: 1px solid #000;
+     text-align: center;
+     font-size: 20px;
+}
+#adminhome{
+      background-image: url("https://tse2.mm.bing.net/th/id/OIP.jSGfPnz0Up9bmRfE2VUoDwHaE6?w=292&h=193&c=7&r=0&o=5&dpr=1.7&pid=1.7");
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+     }
+textarea:focus, input:focus{
+     background-color: yellow;
+}
+#facilitys{
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+    overflow: hidden;
+      text-size-adjust:initial;
+}
+#newstudent{
+      background-color: antiquewhite;
+      border: 1px solid #000;
+      
+      font-size: 25px;
+      width: 50%;
+      margin-top: 12%;
+     
+      margin-left: 25%;
+     text-align: center;
+
+}
+
+

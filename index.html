@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="homepage">
+
+
+
+    <ul id="navbar">
+        <h1 >Hostel Management System</h1>
+        <li id="home"><a href="index.html">Home</a></li>
+        <li><a href="adminlogin.html">Warden Login</a></li>
+        <li><a href="#feed" > <abbr  style="font-size:30px;" title="student can add feedbadk related to hostel">Add Feedback</abbr></a></li>
+        
+    </ul>
+    
+    
+    
+    <div><br><br><br><br><br><br><br>
+        <marquee behavior=alternate direction="" style="width: 350px; margin-left:10%;">  <h1 style="color:rgb(220, 220, 248);">Hostel Facilities:
+        </h1></marquee> <br>
+   <div id="facilitys">
+<ul id="facility">
+    <li>Well lighted and ventilated rooms</li> <br>
+    <li>Semi furnished rooms</li> <br>
+    <li> Student friendly wardens</li> <br>
+    <li>Student friendly wardens</li> <br>
+    <li>High Speed Wi-Fi connectivity</li> <br>
+    <li>Hot water through solar heaters</li> <br>
+    <li>CCTV cameras</li> <br>
+    <li>24 hrs power backup</li> <br>
+    <li>24/7 security guards in campus</li><br>
+    <li>Hi tech kitchen, with modern equipments</li><br>
+    <li>Provision of RO water for drinking</li><br>
+    <li>Healthy environment</li><br>
+</ul>
+</div>   
+    <div id="feed">
+        <section style="background-color:rgb(209, 152, 46);font-size:30px; overflow:hidden;" >
+            <p >Add Feedback</p></section><br>
+        <form action="addfeed.jsp">
+            
+            <label >Student Name: </label>
+            <input type="text" required name="f1"><br><br>
+            <label >Enter the feedback here:</label>
+            <textarea name="f2" id="" cols="30" rows="2" required placeholder="Enter the details here"></textarea><br><br>
+            <label>Date:</label>
+            <input name="f3" type="date" required><br><br>
+            <input type="submit"  style="width: 120px;color:red;font-size:20px;"> <br><br>
+        </form>
+    </div>
+
+    
+</body>
+</html>
