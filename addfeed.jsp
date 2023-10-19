@@ -8,7 +8,7 @@ s3=request.getParameter("f3");
 
 Connection conn;
     Statement stmt;
-
+String message="feedback added succesfully...."
 
 try{
   
@@ -24,11 +24,12 @@ try{
    
 %>
 <script>
-wait(10000);
-alert("feedback added");
+  setTimeout(function() {
+    alert("<%= message %>");
+    window.location.href = "index.html"; // Replace with your desired forward page
+  }, 1000); // Replace 2000 with the desired time delay in milliseconds
 </script>
 
-<jsp:forward page="index.html"/>
 
 <%
 }

@@ -19,7 +19,7 @@
 
      Connection conn;
      Statement stmt;
-     String s1;
+     String s1,message="NO such student exist...!";
      s1=request.getParameter("scarch");
    
     try{
@@ -30,13 +30,7 @@
          stmt=conn.createStatement();
          ResultSet r=stmt.executeQuery("select * from student where name='"+s1+"' ; ");
         
-           if(r==null){
-          %>
-           <script>
-            alert("no such student exist");
-            </script>
-         <%
-         }
+    
       
          while( r.next())
          {
@@ -75,6 +69,7 @@
 
               
          }
+
 
   
     }

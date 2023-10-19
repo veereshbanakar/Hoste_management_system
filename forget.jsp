@@ -8,6 +8,7 @@ s3=request.getParameter("u3");
 
 Connection conn;
     Statement stmt;
+    String message="passward updated succe"
 
 
     if(s2.equals(s3))
@@ -25,8 +26,10 @@ try{
    
 %>
 <script>
-wait(10000);
-alert("hello veeresh");
+  setTimeout(function() {
+    alert("<%= message %>");
+    window.location.href = "index.html"; // Replace with your desired forward page
+  }, 1000); // Replace 2000 with the desired time delay in milliseconds
 </script>
 
 <jsp:forward page="adminlogin.html"/>

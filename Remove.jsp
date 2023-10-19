@@ -1,11 +1,12 @@
 <%@ page import="java.sql.*" %>
 
 <%
-String s1;
+String s1,message;
 s1=request.getParameter("r1");
 
 Connection conn;
     Statement stmt;
+    message=s1+"  studentt details deleted succesfully";
 
 try{
   
@@ -19,11 +20,14 @@ try{
       
 %>
 <script>
-  alert("delete  successful");
-  </script>
- 
+  setTimeout(function() {
+    alert("<%= message %>");
+    window.location.href = "admin.jsp"; // Replace with your desired forward page
+  }, 1000); // Replace 2000 with the desired time delay in milliseconds
+</script>
 
-<jsp:forward page="admin.jsp"/>
+
+
 
 <%
 }

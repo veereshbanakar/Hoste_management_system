@@ -1,7 +1,7 @@
 <%@ page import="java.sql.*" %>
 
 <%
-String s1,s2,s3;
+String s1,s2,s3,message="fees updated succesfully....";
 s1=request.getParameter("u1");
 s2=request.getParameter("u2");
 s3=request.getParameter("u3");
@@ -20,6 +20,12 @@ try{
    out.print(" updated succesfully");
    
 %>
+<script>
+  setTimeout(function() {
+    alert("<%= message %>");
+    window.location.href = "admin.jsp"; // Replace with your desired forward page
+  }, 1000); // Replace 2000 with the desired time delay in milliseconds
+</script>
 
 <jsp:forward page="admin.jsp"/>
 
