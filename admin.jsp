@@ -9,8 +9,10 @@
 </head>
 <body id="adminhome">
     <ul id="navbar">
-        <h1 style="color:black">Hostel Management System</h1>
-        <li id="home"><a href="admin.jsp">Home</a></li>
+        <h1 style="color:black;float:left;">Hostel Management System</h1>
+      <marquee behavior=alternate direction="" style="width: 350px; margin-left:15%;">   <h1 style="color:black">warden page</h1>
+        </marquee> <br>
+        <li id="home" style="clear:left;"><a href="admin.jsp">Home</a></li>
         <li><a href="#newstudent">Add Student</a></li>
         <li><a href="#viewfeed">View Feedback</a></li>
           <li><a href="#search">View Student</a></li>
