@@ -8,7 +8,7 @@ s3=request.getParameter("f3");
 
 Connection conn;
     Statement stmt;
-String message="feedback added succesfully....";c
+String message="feedback added succesfully....";
 
 try{
   

@@ -18,6 +18,8 @@
           <li><a href="#search">View Student</a></li>
           <li><a href="#update"> Update Fees </a> </li>
           <li><a href="#remove"> Remove student</a> </li>
+          <li><a href="take.jsp"> Take Attendence</a> </li>
+          <li><a href="view.jsp"> View Attendence</a> </li>
          <li><a href="index.html">Log Out</a></li>
         
     </ul>

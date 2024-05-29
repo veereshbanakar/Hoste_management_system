@@ -11,7 +11,7 @@ ul li {
 ul li a{
      text-decoration:none;
      color:blue;
-     background-color: rgb(241, 245, 241);
+     background-color: rgb(231, 248, 231);
      border-radius: 5px;
 }
 ul li a:hover{
@@ -88,7 +88,7 @@ textarea:focus, input:focus{
       background-color: rgba(0, 0, 0, 0.5);
       text-align: center;
     overflow: hidden;
-      text-size-adjust:initial;
+    text-size-adjust:initial;
 }
 #newstudent{
       background-color: antiquewhite;
